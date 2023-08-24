@@ -1,0 +1,22 @@
+{
+  "name": "jwt-refreshtoken",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/jaeha-playground/jwt-RefreshToken.git",
+  "author": "Jaeha Lee <wogkdkrm112@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "ts-node src/main.ts",
+    "dev": "nodemon --exec ts-node src/main.ts"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.17",
+    "@types/node": "^20.5.4",
+    "nodemon": "^3.0.1",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.1.6"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
